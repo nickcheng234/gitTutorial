@@ -11,6 +11,7 @@ public class Instructor extends Person {
         this.title=title;
         this.favCourse = favCourse;
         this.fulltime = fulltime;
+
     }
 
     public String toString(){

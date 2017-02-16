@@ -4,11 +4,13 @@
 public class Instructor extends Person {
     String title;
     Course favCourse;
+    boolean fulltime;
 
-    public Instructor(String name, String emailAddress, String title, Course favCourse){
+    public Instructor(String name, String emailAddress, String title, Course favCourse, boolean fulltime){
         super(name,emailAddress);
         this.title=title;
         this.favCourse = favCourse;
+        this.fulltime = fulltime;
     }
 
     public String toString(){
